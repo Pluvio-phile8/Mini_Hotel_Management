@@ -1,0 +1,15 @@
+E:\FPTU\PRN212\Assignment\assignment_official\NguyenSyBen_ NET1807_A02.sln\FUMiniHotelSystem.Data\bin\Debug\net8.0\FUMiniHotelSystem.Data.deps.json
+E:\FPTU\PRN212\Assignment\assignment_official\NguyenSyBen_ NET1807_A02.sln\FUMiniHotelSystem.Data\bin\Debug\net8.0\FUMiniHotelSystem.Data.dll
+E:\FPTU\PRN212\Assignment\assignment_official\NguyenSyBen_ NET1807_A02.sln\FUMiniHotelSystem.Data\bin\Debug\net8.0\FUMiniHotelSystem.Data.pdb
+E:\FPTU\PRN212\Assignment\assignment_official\NguyenSyBen_ NET1807_A02.sln\FUMiniHotelSystem.Data\bin\Debug\net8.0\FUMiniHotelSystem.Business.dll
+E:\FPTU\PRN212\Assignment\assignment_official\NguyenSyBen_ NET1807_A02.sln\FUMiniHotelSystem.Data\bin\Debug\net8.0\FUMiniHotelSystem.Business.pdb
+E:\FPTU\PRN212\Assignment\assignment_official\NguyenSyBen_ NET1807_A02.sln\FUMiniHotelSystem.Data\obj\Debug\net8.0\FUMiniHotelSystem.Data.csproj.AssemblyReference.cache
+E:\FPTU\PRN212\Assignment\assignment_official\NguyenSyBen_ NET1807_A02.sln\FUMiniHotelSystem.Data\obj\Debug\net8.0\FUMiniHotelSystem.Data.GeneratedMSBuildEditorConfig.editorconfig
+E:\FPTU\PRN212\Assignment\assignment_official\NguyenSyBen_ NET1807_A02.sln\FUMiniHotelSystem.Data\obj\Debug\net8.0\FUMiniHotelSystem.Data.AssemblyInfoInputs.cache
+E:\FPTU\PRN212\Assignment\assignment_official\NguyenSyBen_ NET1807_A02.sln\FUMiniHotelSystem.Data\obj\Debug\net8.0\FUMiniHotelSystem.Data.AssemblyInfo.cs
+E:\FPTU\PRN212\Assignment\assignment_official\NguyenSyBen_ NET1807_A02.sln\FUMiniHotelSystem.Data\obj\Debug\net8.0\FUMiniHotelSystem.Data.csproj.CoreCompileInputs.cache
+E:\FPTU\PRN212\Assignment\assignment_official\NguyenSyBen_ NET1807_A02.sln\FUMiniHotelSystem.Data\obj\Debug\net8.0\FUMiniHo.593C99A6.Up2Date
+E:\FPTU\PRN212\Assignment\assignment_official\NguyenSyBen_ NET1807_A02.sln\FUMiniHotelSystem.Data\obj\Debug\net8.0\FUMiniHotelSystem.Data.dll
+E:\FPTU\PRN212\Assignment\assignment_official\NguyenSyBen_ NET1807_A02.sln\FUMiniHotelSystem.Data\obj\Debug\net8.0\refint\FUMiniHotelSystem.Data.dll
+E:\FPTU\PRN212\Assignment\assignment_official\NguyenSyBen_ NET1807_A02.sln\FUMiniHotelSystem.Data\obj\Debug\net8.0\FUMiniHotelSystem.Data.pdb
+E:\FPTU\PRN212\Assignment\assignment_official\NguyenSyBen_ NET1807_A02.sln\FUMiniHotelSystem.Data\obj\Debug\net8.0\ref\FUMiniHotelSystem.Data.dll

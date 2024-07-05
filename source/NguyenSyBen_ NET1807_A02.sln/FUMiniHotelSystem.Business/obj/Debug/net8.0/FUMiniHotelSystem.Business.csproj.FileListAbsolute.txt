@@ -1,0 +1,14 @@
+E:\FPTU\PRN212\Assignment\assignment_official\NguyenSyBen_ NET1807_A02.sln\FUMiniHotelSystem.Business\bin\Debug\net8.0\FUMiniHotelSystem.Business.deps.json
+E:\FPTU\PRN212\Assignment\assignment_official\NguyenSyBen_ NET1807_A02.sln\FUMiniHotelSystem.Business\bin\Debug\net8.0\FUMiniHotelSystem.Business.runtimeconfig.json
+E:\FPTU\PRN212\Assignment\assignment_official\NguyenSyBen_ NET1807_A02.sln\FUMiniHotelSystem.Business\bin\Debug\net8.0\FUMiniHotelSystem.Business.dll
+E:\FPTU\PRN212\Assignment\assignment_official\NguyenSyBen_ NET1807_A02.sln\FUMiniHotelSystem.Business\bin\Debug\net8.0\FUMiniHotelSystem.Business.pdb
+E:\FPTU\PRN212\Assignment\assignment_official\NguyenSyBen_ NET1807_A02.sln\FUMiniHotelSystem.Business\obj\Debug\net8.0\FUMiniHotelSystem.Business.csproj.AssemblyReference.cache
+E:\FPTU\PRN212\Assignment\assignment_official\NguyenSyBen_ NET1807_A02.sln\FUMiniHotelSystem.Business\obj\Debug\net8.0\FUMiniHotelSystem.Business.GeneratedMSBuildEditorConfig.editorconfig
+E:\FPTU\PRN212\Assignment\assignment_official\NguyenSyBen_ NET1807_A02.sln\FUMiniHotelSystem.Business\obj\Debug\net8.0\FUMiniHotelSystem.Business.AssemblyInfoInputs.cache
+E:\FPTU\PRN212\Assignment\assignment_official\NguyenSyBen_ NET1807_A02.sln\FUMiniHotelSystem.Business\obj\Debug\net8.0\FUMiniHotelSystem.Business.AssemblyInfo.cs
+E:\FPTU\PRN212\Assignment\assignment_official\NguyenSyBen_ NET1807_A02.sln\FUMiniHotelSystem.Business\obj\Debug\net8.0\FUMiniHotelSystem.Business.csproj.CoreCompileInputs.cache
+E:\FPTU\PRN212\Assignment\assignment_official\NguyenSyBen_ NET1807_A02.sln\FUMiniHotelSystem.Business\obj\Debug\net8.0\FUMiniHotelSystem.Business.dll
+E:\FPTU\PRN212\Assignment\assignment_official\NguyenSyBen_ NET1807_A02.sln\FUMiniHotelSystem.Business\obj\Debug\net8.0\refint\FUMiniHotelSystem.Business.dll
+E:\FPTU\PRN212\Assignment\assignment_official\NguyenSyBen_ NET1807_A02.sln\FUMiniHotelSystem.Business\obj\Debug\net8.0\FUMiniHotelSystem.Business.pdb
+E:\FPTU\PRN212\Assignment\assignment_official\NguyenSyBen_ NET1807_A02.sln\FUMiniHotelSystem.Business\obj\Debug\net8.0\FUMiniHotelSystem.Business.genruntimeconfig.cache
+E:\FPTU\PRN212\Assignment\assignment_official\NguyenSyBen_ NET1807_A02.sln\FUMiniHotelSystem.Business\obj\Debug\net8.0\ref\FUMiniHotelSystem.Business.dll

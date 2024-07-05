@@ -1,0 +1,43 @@
+﻿<Window x:Class="NguyenSyBenWPF.ManageRoomWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NguyenSyBenWPF"
+        mc:Ignorable="d"
+        Title="ManageRoomWindow" Height="500" Width="1200">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <ListView Name="lvRooms" ItemsSource="{Binding Rooms}" Grid.Row="1" Width="1150" Height="400" SelectedItem="{Binding SelectedRoom}" Margin="30">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Room ID" DisplayMemberBinding="{Binding RoomId}" Width="100"/>
+                    <GridViewColumn Header="Room Number" DisplayMemberBinding="{Binding RoomNumber}" Width="100"/>
+                    <GridViewColumn Header="Description" DisplayMemberBinding="{Binding RoomDetailDescription}" Width="200"/>
+                    <GridViewColumn Header="Max Capacity" DisplayMemberBinding="{Binding RoomMaxCapacity}" Width="100"/>
+                    <GridViewColumn Header="Room Type ID" DisplayMemberBinding="{Binding RoomTypeId}" Width="100"/>
+                    <GridViewColumn Header="Status" DisplayMemberBinding="{Binding RoomStatus}" Width="100"/>
+                    <GridViewColumn Header="Price Per Day" DisplayMemberBinding="{Binding RoomPricePerDay, StringFormat={}{0:C}}" Width="100"/>
+                    <GridViewColumn Header="Actions" Width="200">
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <StackPanel Orientation="Horizontal">
+                                    <Button Content="Edit" Width="60" Height="30" Click="EditRoom_Click" Tag="{Binding}" Margin="5"/>
+                                    <Button Content="Delete" Width="60" Height="30" Click="DeleteRoomButton_Click" CommandParameter="{Binding}" Margin="5"/>
+                                </StackPanel>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <StackPanel Orientation="Horizontal" Grid.Row="2" HorizontalAlignment="Right" Margin="20">
+            <Button Content="Add Room" Width="120" Height="30" Click="AddRoomButton_Click" Margin="10"/>
+            <Button Content="Back" Width="120" Height="30" Click="BackButton_Click" Margin="10"/>
+        </StackPanel>
+    </Grid>
+</Window>

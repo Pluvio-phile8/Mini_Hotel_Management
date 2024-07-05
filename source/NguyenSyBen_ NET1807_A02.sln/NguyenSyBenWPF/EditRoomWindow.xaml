@@ -1,0 +1,44 @@
+﻿<Window x:Class="NguyenSyBenWPF.EditRoomWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NguyenSyBenWPF"
+        mc:Ignorable="d"
+        Title="EditRoomWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <!-- Room Number -->
+        <Label Grid.Row="0" Content="Room Number:"/>
+        <TextBox x:Name="txtRoomNumber" Grid.Row="0" Margin="5" Width="250"/>
+
+        <!-- Room Detail Description -->
+        <Label Grid.Row="1" Content="Room Detail Description:"/>
+        <TextBox x:Name="txtRoomDetailDescription" Grid.Row="1" Margin="5" Width="250"/>
+
+        <!-- Room Max Capacity -->
+        <Label Grid.Row="2" Content="Max Capacity:"/>
+        <TextBox x:Name="txtRoomMaxCapacity" Grid.Row="2" Margin="5" Width="250"/>
+
+        <!-- Room Type ID -->
+        <Label Grid.Row="3" Content="Room Type ID:"/>
+        <TextBox x:Name="txtRoomTypeId" Grid.Row="3" Margin="5" Width="250"/>
+
+        <!-- Room Price Per Day -->
+        <Label Grid.Row="4" Content="Price Per Day:"/>
+        <TextBox x:Name="txtRoomPricePerDay" Grid.Row="4" Margin="5" Width="250"/>
+
+        <!-- Buttons -->
+        <StackPanel Grid.Row="5" Orientation="Horizontal" HorizontalAlignment="Center" Margin="10">
+            <Button Content="Save" Width="80" Margin="5" Click="SaveButton_Click"/>
+            <Button Content="Cancel" Width="80" Margin="5" Click="CancelButton_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

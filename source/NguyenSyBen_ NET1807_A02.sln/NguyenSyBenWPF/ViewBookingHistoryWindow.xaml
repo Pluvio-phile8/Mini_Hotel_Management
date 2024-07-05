@@ -1,0 +1,25 @@
+﻿<Window x:Class="NguyenSyBenWPF.ViewBookingHistoryWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NguyenSyBenWPF"
+        mc:Ignorable="d"
+        Title="ViewBookingHistoryWindow" Height="450" Width="800">
+    <Grid>
+        <ListView x:Name="lv" ItemsSource="{Binding BookingReservations}">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Reservation ID" DisplayMemberBinding="{Binding BookingReservationId}" />
+                    <GridViewColumn Header="Booking Date" DisplayMemberBinding="{Binding BookingDate}" />
+                    <GridViewColumn Header="Total Price" DisplayMemberBinding="{Binding TotalPrice}" />
+                    <GridViewColumn Header="Status" DisplayMemberBinding="{Binding BookingStatus}" />
+                    <GridViewColumn Header="Room ID" DisplayMemberBinding="{Binding BookingDetails[0].RoomId}" />
+                    <GridViewColumn Header="Start Date" DisplayMemberBinding="{Binding BookingDetails[0].StartDate}" />
+                    <GridViewColumn Header="End Date" DisplayMemberBinding="{Binding BookingDetails[0].EndDate}" />
+                    <GridViewColumn Header="Actual Price" DisplayMemberBinding="{Binding BookingDetails[0].ActualPrice}" />
+                </GridView>
+            </ListView.View>
+        </ListView>
+    </Grid>
+</Window>
