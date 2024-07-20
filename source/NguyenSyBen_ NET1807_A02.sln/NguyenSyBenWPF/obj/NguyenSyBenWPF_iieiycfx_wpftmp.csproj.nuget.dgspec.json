@@ -1,0 +1,295 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Project\\Winform-C#\\Mini_Hotel_Management\\source\\NguyenSyBen_ NET1807_A02.sln\\NguyenSyBenWPF\\NguyenSyBenWPF.csproj": {}
+  },
+  "projects": {
+    "E:\\Project\\Winform-C#\\Mini_Hotel_Management\\source\\NguyenSyBen_ NET1807_A02.sln\\FUMiniHotelSystem.Business\\FUMiniHotelSystem.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Project\\Winform-C#\\Mini_Hotel_Management\\source\\NguyenSyBen_ NET1807_A02.sln\\FUMiniHotelSystem.Business\\FUMiniHotelSystem.Business.csproj",
+        "projectName": "FUMiniHotelSystem.Business",
+        "projectPath": "E:\\Project\\Winform-C#\\Mini_Hotel_Management\\source\\NguyenSyBen_ NET1807_A02.sln\\FUMiniHotelSystem.Business\\FUMiniHotelSystem.Business.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "E:\\Project\\Winform-C#\\Mini_Hotel_Management\\source\\NguyenSyBen_ NET1807_A02.sln\\FUMiniHotelSystem.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Project\\Winform-C#\\Mini_Hotel_Management\\source\\NguyenSyBen_ NET1807_A02.sln\\FUMiniHotelSystem.Data\\FUMiniHotelSystem.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Project\\Winform-C#\\Mini_Hotel_Management\\source\\NguyenSyBen_ NET1807_A02.sln\\FUMiniHotelSystem.Data\\FUMiniHotelSystem.Data.csproj",
+        "projectName": "FUMiniHotelSystem.Data",
+        "projectPath": "E:\\Project\\Winform-C#\\Mini_Hotel_Management\\source\\NguyenSyBen_ NET1807_A02.sln\\FUMiniHotelSystem.Data\\FUMiniHotelSystem.Data.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "E:\\Project\\Winform-C#\\Mini_Hotel_Management\\source\\NguyenSyBen_ NET1807_A02.sln\\FUMiniHotelSystem.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\Project\\Winform-C#\\Mini_Hotel_Management\\source\\NguyenSyBen_ NET1807_A02.sln\\FUMiniHotelSystem.Business\\FUMiniHotelSystem.Business.csproj": {
+                "projectPath": "E:\\Project\\Winform-C#\\Mini_Hotel_Management\\source\\NguyenSyBen_ NET1807_A02.sln\\FUMiniHotelSystem.Business\\FUMiniHotelSystem.Business.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Project\\Winform-C#\\Mini_Hotel_Management\\source\\NguyenSyBen_ NET1807_A02.sln\\FUMiniHotelSystem.Repositories\\FUMiniHotelSystem.Repositories.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Project\\Winform-C#\\Mini_Hotel_Management\\source\\NguyenSyBen_ NET1807_A02.sln\\FUMiniHotelSystem.Repositories\\FUMiniHotelSystem.Repositories.csproj",
+        "projectName": "FUMiniHotelSystem.Repositories",
+        "projectPath": "E:\\Project\\Winform-C#\\Mini_Hotel_Management\\source\\NguyenSyBen_ NET1807_A02.sln\\FUMiniHotelSystem.Repositories\\FUMiniHotelSystem.Repositories.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "E:\\Project\\Winform-C#\\Mini_Hotel_Management\\source\\NguyenSyBen_ NET1807_A02.sln\\FUMiniHotelSystem.Repositories\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\Project\\Winform-C#\\Mini_Hotel_Management\\source\\NguyenSyBen_ NET1807_A02.sln\\FUMiniHotelSystem.Data\\FUMiniHotelSystem.Data.csproj": {
+                "projectPath": "E:\\Project\\Winform-C#\\Mini_Hotel_Management\\source\\NguyenSyBen_ NET1807_A02.sln\\FUMiniHotelSystem.Data\\FUMiniHotelSystem.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Project\\Winform-C#\\Mini_Hotel_Management\\source\\NguyenSyBen_ NET1807_A02.sln\\NguyenSyBenWPF\\NguyenSyBenWPF.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Project\\Winform-C#\\Mini_Hotel_Management\\source\\NguyenSyBen_ NET1807_A02.sln\\NguyenSyBenWPF\\NguyenSyBenWPF.csproj",
+        "projectName": "NguyenSyBenWPF",
+        "projectPath": "E:\\Project\\Winform-C#\\Mini_Hotel_Management\\source\\NguyenSyBen_ NET1807_A02.sln\\NguyenSyBenWPF\\NguyenSyBenWPF.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "E:\\Project\\Winform-C#\\Mini_Hotel_Management\\source\\NguyenSyBen_ NET1807_A02.sln\\NguyenSyBenWPF\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "E:\\Project\\Winform-C#\\Mini_Hotel_Management\\source\\NguyenSyBen_ NET1807_A02.sln\\FUMiniHotelSystem.Repositories\\FUMiniHotelSystem.Repositories.csproj": {
+                "projectPath": "E:\\Project\\Winform-C#\\Mini_Hotel_Management\\source\\NguyenSyBen_ NET1807_A02.sln\\FUMiniHotelSystem.Repositories\\FUMiniHotelSystem.Repositories.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

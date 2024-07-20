@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "E:\\FPTU\\PRN212\\Assignment\\assignment_official\\NguyenSyBen_ NET1807_A02.sln\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3144A4AD-D22D-4D33-8E9A-22A4BC084E40}|NguyenSyBenWPF\\NguyenSyBenWPF.csproj|e:\\fptu\\prn212\\assignment\\assignment_official\\nguyensyben_ net1807_a02.sln\\nguyensybenwpf\\customerwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3144A4AD-D22D-4D33-8E9A-22A4BC084E40}|NguyenSyBenWPF\\NguyenSyBenWPF.csproj|solutionrelative:nguyensybenwpf\\customerwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6BA79EFC-9A15-4289-9897-71380B3679F9}|FUMiniHotelSystem.Data\\FUMiniHotelSystem.Data.csproj|e:\\fptu\\prn212\\assignment\\assignment_official\\nguyensyben_ net1807_a02.sln\\fuminihotelsystem.data\\customerdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BA79EFC-9A15-4289-9897-71380B3679F9}|FUMiniHotelSystem.Data\\FUMiniHotelSystem.Data.csproj|solutionrelative:fuminihotelsystem.data\\customerdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +14,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -23,14 +27,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CustomerWindow.xaml.cs",
-              "DocumentMoniker": "E:\\FPTU\\PRN212\\Assignment\\assignment_official\\NguyenSyBen_ NET1807_A02.sln\\NguyenSyBenWPF\\CustomerWindow.xaml.cs",
-              "RelativeDocumentMoniker": "NguyenSyBenWPF\\CustomerWindow.xaml.cs",
-              "ToolTip": "E:\\FPTU\\PRN212\\Assignment\\assignment_official\\NguyenSyBen_ NET1807_A02.sln\\NguyenSyBenWPF\\CustomerWindow.xaml.cs",
-              "RelativeToolTip": "NguyenSyBenWPF\\CustomerWindow.xaml.cs",
-              "ViewState": "AQIAADEAAAAAAAAAAAAQwEMAAABUAAAA",
+              "Title": "CustomerDAO.cs",
+              "DocumentMoniker": "E:\\FPTU\\PRN212\\Assignment\\assignment_official\\NguyenSyBen_ NET1807_A02.sln\\FUMiniHotelSystem.Data\\CustomerDAO.cs",
+              "RelativeDocumentMoniker": "FUMiniHotelSystem.Data\\CustomerDAO.cs",
+              "ToolTip": "E:\\FPTU\\PRN212\\Assignment\\assignment_official\\NguyenSyBen_ NET1807_A02.sln\\FUMiniHotelSystem.Data\\CustomerDAO.cs",
+              "RelativeToolTip": "FUMiniHotelSystem.Data\\CustomerDAO.cs",
+              "ViewState": "AQIAAEkAAAAAAAAAAAAkwEsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T05:05:25.666Z",
+              "WhenOpened": "2024-07-19T18:05:42.821Z",
               "EditorCaption": ""
             }
           ]

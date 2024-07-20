@@ -198,21 +198,87 @@ USE [master]
 GO
 ALTER DATABASE [FUMiniHotelManagement] SET  READ_WRITE 
 GO
-select * from RoomInformation
+CREATE TRIGGER trg_UpdateTotalPrice
+ON BookingDetail
+AFTER INSERT, UPDATE, DELETE
+AS
+BEGIN
+    -- Declare variables
+    DECLARE @BookingReservationID int;
+
+    -- For INSERT and UPDATE, get the BookingReservationID from the inserted row
+    IF EXISTS (SELECT * FROM inserted)
+    BEGIN
+        SELECT @BookingReservationID = BookingReservationID FROM inserted;
+    END
+    -- For DELETE, get the BookingReservationID from the deleted row
+    ELSE IF EXISTS (SELECT * FROM deleted)
+    BEGIN
+        SELECT @BookingReservationID = BookingReservationID FROM deleted;
+    END
+
+    -- Update the TotalPrice in the BookingReservation table
+    UPDATE BookingReservation
+    SET TotalPrice = (
+        SELECT SUM(ISNULL(ActualPrice, 0))
+        FROM BookingDetail
+        WHERE BookingReservationID = @BookingReservationID
+    )
+    WHERE BookingReservationID = @BookingReservationID;
+END
+
 select * from BookingReservation
-select * from BookingDetai
+select * from BookingDetail
+select * from RoomInformation
+select * from RoomType
+CREATE TRIGGER trg_UpdateRoomStatusOnBooking
+ON [dbo].[BookingDetail]
+AFTER INSERT
+AS
+BEGIN
+    SET NOCOUNT ON;
 
-select * from Register_Bid
+    UPDATE ri
+    SET ri.RoomStatus = 0
+    FROM [dbo].[RoomInformation] ri
+    INNER JOIN inserted i ON ri.RoomID = i.RoomID;
+END;
 
-SELECT TOP 1 rb.memberID, MAX(rb.bidAmount_Current) AS maxBidAmount 
-FROM 
-   Register_Bid rb 
-JOIN [Session] s ON rb.sessionID = s.sessionID 
-WHERE 
- s.jewelryID = 'Lot45' AND 
-    rb.status = 'Placed' 
-GROUP BY 
-   rb.memberID 
-ORDER BY 
-   maxBidAmount DESC
-   select * from Invoice
+USE [FUMiniHotelManagement]
+GO
+
+-- Drop the stored procedure if it already exists
+IF OBJECT_ID('dbo.GetBookingStatisticsByPeriod', 'P') IS NOT NULL
+    DROP PROCEDURE dbo.GetBookingStatisticsByPeriod;
+GO
+
+-- Create the stored procedure
+CREATE PROCEDURE dbo.GetBookingStatisticsByPeriod
+    @StartDate DATE,
+    @EndDate DATE
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    SELECT 
+        BD.StartDate,
+        BD.EndDate,
+        BR.CustomerID,
+        C.CustomerFullName,
+        SUM(BR.TotalPrice) AS TotalPrice
+    FROM 
+        [dbo].[BookingDetail] BD
+        JOIN [dbo].[BookingReservation] BR ON BD.BookingReservationID = BR.BookingReservationID
+        JOIN [dbo].[Customer] C ON BR.CustomerID = C.CustomerID
+    WHERE 
+        BD.StartDate >= @StartDate
+        AND BD.EndDate <= @EndDate
+    GROUP BY 
+        BD.StartDate,
+        BD.EndDate,
+        BR.CustomerID,
+        C.CustomerFullName
+    ORDER BY 
+        TotalPrice DESC;
+END;
+GO

@@ -1,0 +1,40 @@
+﻿<Window x:Class="NguyenSyBenWPF.EditReservationWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NguyenSyBenWPF"
+        mc:Ignorable="d"
+        Title="EditReservationWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Label Grid.Row="0" Content="Reservation Id:"/>
+        <TextBox x:Name="txtId" Grid.Row="0" Margin="5" Width="250" Height="30"/>
+
+        <Label Grid.Row="1" Content="Booking Date:"/>
+        <DatePicker Grid.Row="1" Margin="5" Width="250" Height="30" x:Name="dpBookingDate"/>
+
+        <Label Grid.Row="2" Content="Total Price:"/>
+        <TextBox x:Name="txtPrice" Grid.Row="2" Margin="5" Width="250" Height="30"/>
+
+        <Label Grid.Row="3" Content="Customer Id:"/>
+        <TextBox x:Name="txtCustomerId" Grid.Row="3" Margin="5" Width="250" Height="30"/>
+
+        <Label Grid.Row="5" Content="Status:"/>
+        <ComboBox x:Name="cmbStatus" Grid.Row="5" Width="250" Height="20" Margin="0 0 0 10">
+            <ComboBoxItem Content="0"/>
+            <ComboBoxItem Content="1"/>
+        </ComboBox>
+        <StackPanel Grid.Row="5" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,40,0,-20">
+            <Button Background="LightBlue" Content="Save" Width="80" Click="SaveButton_Click" Height="30"/>
+            <Button Background="LightGray" Content="Cancel" Width="80" Margin="5" Click="CancelButton_Click" Height="30"/>
+        </StackPanel>
+    </Grid>
+</Window>
