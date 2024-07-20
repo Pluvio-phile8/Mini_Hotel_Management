@@ -1,4 +1,3 @@
-![image](https://github.com/user-attachments/assets/97343be0-5e95-44ea-ba35-7b3720c82505)▪	Use the Visual Studio.NET to create Windows Presentation Foundation (WPF) and Class Library (.dll) projects.
 ▪	Perform CRUD actions using Entity Framework Core.
 ▪	Use LINQ to query and sort data.
 ▪	Apply passing data in the WPF application.
